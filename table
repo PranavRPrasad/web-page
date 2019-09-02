@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>table</title>
+    <style>
+    body{
+        margin: 0;
+        padding: 0;
+        background: #262626;
+        font-family: sans-serif;
+    }
+
+    .container
+    {
+        width: 1800px;
+        margin:  70 px auto 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .container .box
+    {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        background: #ff0;
+        margin:10px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+
+    .container .box .imgbox
+    {
+        position: relative;
+        overflow: hidden;
+    }
+    .container .box .imgbox img{
+        max-width: 100%;
+        transition: transform 2s;
+    }
+
+    .container .box:hover .imgbox img{
+         transform: scale(1.2);
+    }  
+    .container .box .details
+    {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+        background: rgba(0,0,0,0.8);
+        transform: scaleY(0);
+        transition:  transform .5s;
+    }
+    .container .box:hover .details{
+        transform: scaleY(1);
+    
+    }
+    .container .box .details .content
+    {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        padding: 15px;
+        color: #fff;
+    }
+    .container .box .details .content h2{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        color: #ff0;
+
+    }
+    .container .box .details .content p{
+        margin: 10px 0 0;
+        padding: 0;
+      
+        
+    }
+    
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="box">
+            <div class="imgbox">
+                <img src="img1.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                    <p>Winning the NBA Championship in 2008.
+                            Losing in the NBA Finals
+                            in 2010. Though they were completely
+                            different endings, emotionally, both
+                            were amazing learning opportunities that
+                            author, Kevin Eastman, experienced as a
+                            member of the Boston Celtics coaching
+                            staff.</p>
+                </div>
+                </div>
+            </div>
+            <div class="box">
+                 <div class="imgbox">
+                    <img src="img2.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                        <p>Winning the NBA Championship in 2008.
+                                Losing in the NBA Finals
+                                in 2010. Though they were completely
+                                different endings, emotionally, both
+                                were amazing learning opportunities that
+                                author, Kevin Eastman, experienced as a
+                                member of the Boston Celtics coaching
+                                staff.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">  <div class="imgbox">
+                    <img src="img1.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                        <p>Winning the NBA Championship in 2008.
+                                Losing in the NBA Finals
+                                in 2010. Though they were completely
+                                different endings, emotionally, both
+                                were amazing learning opportunities that
+                                author, Kevin Eastman, experienced as a
+                                member of the Boston Celtics coaching
+                                staff.</p>
+                    </div>
+                    </div></div>
+            <div class="box">  <div class="imgbox">
+                    <img src="img1.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                        <p>Winning the NBA Championship in 2008.
+                                Losing in the NBA Finals
+                                in 2010. Though they were completely
+                                different endings, emotionally, both
+                                were amazing learning opportunities that
+                                author, Kevin Eastman, experienced as a
+                                member of the Boston Celtics coaching
+                                staff.</p>
+                    </div>
+                    </div></div>
+            <div class="box">  <div class="imgbox">
+                    <img src="img4.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                        <p>Winning the NBA Championship in 2008.
+                                Losing in the NBA Finals
+                                in 2010. Though they were completely
+                                different endings, emotionally, both
+                                were amazing learning opportunities that
+                                author, Kevin Eastman, experienced as a
+                                member of the Boston Celtics coaching
+                                staff.</p>
+                    </div>
+                    </div></div>
+            <div class="box">  <div class="imgbox">
+                    <img src="img1.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                        <p>Winning the NBA Championship in 2008.
+                                Losing in the NBA Finals
+                                in 2010. Though they were completely
+                                different endings, emotionally, both
+                                were amazing learning opportunities that
+                                author, Kevin Eastman, experienced as a
+                                member of the Boston Celtics coaching
+                                staff.</p>
+                    </div>
+                    </div></div>
+            <div class="box">  <div class="imgbox">
+                    <img src="img2.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                        <p>Winning the NBA Championship in 2008.
+                                Losing in the NBA Finals
+                                in 2010. Though they were completely
+                                different endings, emotionally, both
+                                were amazing learning opportunities that
+                                author, Kevin Eastman, experienced as a
+                                member of the Boston Celtics coaching
+                                staff.</p>
+                    </div>
+                    </div></div>
+            <div class="box">  <div class="imgbox">
+                    <img src="img3.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                        <p>Winning the NBA Championship in 2008.
+                                Losing in the NBA Finals
+                                in 2010. Though they were completely
+                                different endings, emotionally, both
+                                were amazing learning opportunities that
+                                author, Kevin Eastman, experienced as a
+                                member of the Boston Celtics coaching
+                                staff.</p>
+                    </div>
+                    </div></div>
+                    <div class="box">  <div class="imgbox">
+                            <img src="img4.jpg">
+                        </div>
+                        <div class="details">
+                            <div class="content">
+                                <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                                <p>Winning the NBA Championship in 2008.
+                                        Losing in the NBA Finals
+                                        in 2010. Though they were completely
+                                        different endings, emotionally, both
+                                        were amazing learning opportunities that
+                                        author, Kevin Eastman, experienced as a
+                                        member of the Boston Celtics coaching
+                                        staff.</p>
+                            </div>
+                            </div></div>
+                            <div class="box">  <div class="imgbox">
+                                    <img src="img5.jpg">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <h2>Why The Best Are The Best: 25 Powerful Words That Impact, Inspire, And Define Champions</h2>
+                                        <p>Winning the NBA Championship in 2008.
+                                                Losing in the NBA Finals
+                                                in 2010. Though they were completely
+                                                different endings, emotionally, both
+                                                were amazing learning opportunities that
+                                                author, Kevin Eastman, experienced as a
+                                                member of the Boston Celtics coaching
+                                                staff.</p>
+                                    </div>
+                                    </div></div>
+
+        </div>
+</body>
+</html>
